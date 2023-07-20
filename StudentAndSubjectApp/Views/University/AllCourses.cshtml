@@ -9,4 +9,27 @@
     <br />
 }
 
+<div id="university-details">
+    
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>$(document).ready(function () {
+            $(".courseLink").click(function (e) {
+                e.preventDefault();
+                var universitiesData = $(this).data("universities");
+
+                var universities = JSON.parse(universitiesData);
+
+                var html = "<h2>Partner Universities</h2><ul>";
+                for (var i = 0; i < universities.length; i++) {
+                    html += "<li>" + universities[i].Name + " - " + universities[i].Country + "</li>";
+                }
+                html += "</ul>";
+
+                $("#university-details").html(html);
+            });
+        });</script>
+}
 
