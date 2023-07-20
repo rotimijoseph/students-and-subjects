@@ -30,3 +30,14 @@ $(document).ready(function () {
         }
     });
 });
+$(document).ready(function () {
+    $('#title').change(function () {
+         var selectedOption = $(this).val();
+         if (selectedOption === 'other') {
+             $('#otherTitleContainer').show();
+         } else {
+             $('#otherTitleContainer').hide();
+         }
+    });
+});
+
