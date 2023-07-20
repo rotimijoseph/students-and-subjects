@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace StudentAndSubjectApp.Controllers
@@ -11,22 +12,24 @@ namespace StudentAndSubjectApp.Controllers
             {
                 string jsonUrl = "https://www.liverpool.ac.uk/app-data/study-abroad/courses.json";
 
-                HttpResponseMessage response = client.GetAsync(jsonUrl).Result;
+                    HttpResponseMessage response = client.GetAsync(jsonUrl).Result;
 
-                if (response.IsSuccessStatusCode)
-                {
-                    string jsonContent = response.Content.ReadAsStringAsync().Result;
-                    var universityData = JsonConvert.DeserializeObject<List<Models.University>>(jsonContent);
-                    return View(universityData);
-                }
+                    if (response.IsSuccessStatusCode)
+                    {   
+                        string jsonContent = response.Content.ReadAsStringAsync().Result;
+                        var universityData = JsonConvert.DeserializeObject<List<Models.University>>(jsonContent);
+                        return View(universityData);
+                    }
 
-                else
-                {
-                    return View("Error");
-                }
+                        else
+                        {
+                            return View("Error");
+                        }
             }
 
         }
+        
     }
 }
+
 
