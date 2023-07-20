@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3Q3ENhipyrd5MZOwUtkdX0+SJo4c+ADC8KM2U9RRnPk=",
+  "Hash": "8DpUo+71GwV0JSljHHQByoaDTVBgGPTI/LyYVuq5R5Q=",
   "Source": "StudentAndSubjectApp",
   "BasePath": "_content/StudentAndSubjectApp",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/js/datepicker.js",
+      "SourceId": "StudentAndSubjectApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/",
+      "BasePath": "_content/StudentAndSubjectApp",
+      "RelativePath": "js/datepicker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/datepicker.js"
+    },
+    {
       "Identity": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/js/site.js",
       "SourceId": "StudentAndSubjectApp",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/js/validateInputValue.js",
+      "SourceId": "StudentAndSubjectApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/",
+      "BasePath": "_content/StudentAndSubjectApp",
+      "RelativePath": "js/validateInputValue.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/validateInputValue.js"
     },
     {
       "Identity": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",

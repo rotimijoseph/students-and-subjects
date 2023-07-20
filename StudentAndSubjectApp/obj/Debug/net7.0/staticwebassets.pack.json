@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/js/datepicker.js",
+      "PackagePath": "staticwebassets/js/datepicker.js"
+    },
+    {
       "Id": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/js/validateInputValue.js",
+      "PackagePath": "staticwebassets/js/validateInputValue.js"
     },
     {
       "Id": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/wwwroot/lib/bootstrap/LICENSE",
