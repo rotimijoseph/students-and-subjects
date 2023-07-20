@@ -15,6 +15,11 @@ namespace StudentAndSubjectApp.Controllers
         {
             return View();
         }
+
+        public IActionResult AccountCreated()
+        {
+            return View();
+        }
     }
 }
 
