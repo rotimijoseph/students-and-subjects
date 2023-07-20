@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tJwndYmDv+kl/KE+FwLjnkTFgFoEWO3PlF22yxwbJ1pvBxvkw4uae1kszcObsMmqEgI56KCNRUE+O34wPDtGcg==",
+  "dgSpecHash": "ae6d4dj99OlY2Z/Yxhif19aZZEpQ3udSw+eHTlO3kquRxzhiQKVoa2UsFC8imo5g9miZDUs0i4PShpnYQ64wEg==",
   "success": true,
   "projectFilePath": "/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/StudentAndSubjectApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/Rotimi/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

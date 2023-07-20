@@ -10,9 +10,14 @@
   <ItemGroup>
     <None Remove="Views\Student\" />
     <None Remove="Views\NewAccount\" />
+    <None Remove="Views\University\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Student\" />
     <Folder Include="Views\NewAccount\" />
+    <Folder Include="Views\University\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>

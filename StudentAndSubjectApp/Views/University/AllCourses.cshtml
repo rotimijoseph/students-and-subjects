@@ -1,0 +1,10 @@
+﻿@model List<StudentAndSubjectApp.Models.University>
+
+<h2>Study abroad courses</h2>
+<p>See below the list of courses available at the University of Liverpool where you can study some of the course at a partner institute.</p>
+
+@foreach (var course in Model)
+{
+    <a href="#" class="courseLink" data-universities="@Json.Serialize(course.Universities)">@course.Course</a>
+    <br />
+}

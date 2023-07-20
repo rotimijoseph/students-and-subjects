@@ -29,3 +29,5 @@
 /Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/obj/Debug/net7.0/StudentAndSubjectApp.pdb
 /Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/obj/Debug/net7.0/StudentAndSubjectApp.genruntimeconfig.cache
 /Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/obj/Debug/net7.0/ref/StudentAndSubjectApp.dll
+/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/Rotimi/Desktop/ASP.NET/StudentAndSubjectApp/StudentAndSubjectApp/obj/Debug/net7.0/StudentAndSubjectApp.csproj.CopyComplete
