@@ -1,4 +1,4 @@
-# students-and-subjects
+# Students and Subjects
 ## **Overview**
 
 ‘Students and Subjects’ is a web-based project developed for a tech test as part of the assessment. The primary goal of this project is to create a web application that allows users to view a list of students, create new student accounts, and browse university courses. Please note that this version of the project is not connected to a database, and the validation is performed on the client-side.
