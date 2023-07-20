@@ -11,13 +11,25 @@
     <None Remove="Views\Student\" />
     <None Remove="Views\NewAccount\" />
     <None Remove="Views\University\" />
+    <None Remove="Views\Database\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Student\" />
     <Folder Include="Views\NewAccount\" />
     <Folder Include="Views\University\" />
+    <Folder Include="Views\Database\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\images\postgreSQL.png" />
+    <Content Remove="wwwroot\images\relationalDatabaseDiagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\images\postgreSQL.png" />
+    <None Include="wwwroot\images\relationalDatabaseDiagram.png" />
   </ItemGroup>
 </Project>
