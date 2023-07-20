@@ -5,11 +5,11 @@
 
 ## **Features**
 
-Each feature corresponds to Tasks 1 to 4 that were set in the practical assessment. 
+Each feature corresponds to tasks 1 to 4 that were set in the practical assessment. 
 
 1. **View designs for a relational database**: Had this project been connected to a database, these designs show you how it would occur. 
 2. **View a list of students**: Users can access a page, via the navigation bar, that displays a list of students
-3. **Create a new student account**: Users can create a new student account by providing necessary information which includes; title, name, email, date of birth and up to 2 subjects. The application performs client-side validation.
+3. **Create a new student account**: Users can create a new student account by providing necessary information which includes; title (from a select menu), name, email, date of birth (using a datepicker) and up to 2 subjects. The application performs client-side validation.
 4. **Browse university courses**: Users can view a list of university courses. However, due to a known issue, clicking on a course link currently does not redirect to a detailed course page.
 
 ## **Technologies Used**
@@ -20,11 +20,11 @@ The following technologies were utilised to build ‘Students and Subjects’:
 - **C#**: The primary programming language for the backend development.
 - **JavaScript**: Used for client-side interactions and form validation.
 - **HTML**: Used for creating the structure of web pages.
-- **CSS**: Utilised for styling and the presentation of the web pages.
+- **Bootstrap**: Utilised for styling and the presentation of the web pages.
 
 ## **Getting Started**
 
-To get started, you will need to have the following prerequisites, the minimum versions needed are shown alongside.
+To get started, you will need to have the following prerequisites.
 
 ### **Prerequisites**
 
@@ -48,7 +48,7 @@ git clone https://github.com/rotimijoseph/students-and-subjects.git
 
 ## **Known Issues**
 
-Clicking on the links of individual university courses does not lead to a page with more details about which partner university the course can be studied at. This issue will be addressed if future updates were to occur.
+Clicking on the links of individual university courses does not lead to a page with more details about which partner university the course can be studied at. This issue would be addressed if future updates were to occur.
 
 ## **Future Improvements**
 
